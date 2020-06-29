@@ -19,5 +19,6 @@ def crop_img(path):
 
 
 if __name__ == '__main__':
-    path = "/home/zhangcheng/data/1/"
+    #path = "/home/zhangcheng/data/1/"
+    path = input("please input your dir path:")
     PicList = pic_list(path)
